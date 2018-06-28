@@ -1,0 +1,58 @@
+** Password Strength Security
+** Ceaser Cipher
+#+BEGIN_SRC elisp
+(require 'cl)
+(defun ceaserEncrypt(key phrase)
+   (map 'string (lambda (c) (+ (% (+ (- c 97) key) 26) 97)) phrase))
+(defun ceaserDecrypt(key phrase)
+   (map 'string (lambda (c) (+ (% (+ (- c 97) (- 26 key)) 26) 97)) phrase))
+#+END_SRC
+
+#+RESULTS:
+: ceaserDecrypt
+
+#+BEGIN_SRC elisp :results all
+(setq key 2)
+(setq phrase "aomethinz")
+(setq encrypted (ceaserEncrypt key phrase))
+(setq decrypted (ceaserDecrypt key encrypted))
+(format "   Phrase: %s\nEncrypted: %s\nDecrypted: %s" phrase encrypted decrypted)
+#+END_SRC
+
+#+RESULTS:
+:    Phrase: aomethinz
+: Encrypted: cqogvjkpb
+: Decrypted: aomethinz
+
+** Vigenere Cipher
+#+BEGIN_SRC elisp
+  (defun vigenereEncrypt(key phrase)
+    (let ((len (length key))
+          (index -1))
+      (map 'string (lambda (c)
+                     (+ (% (+ (- c ?a)
+                              (- (elt key (setq index (mod (1+ index) len))) ?a)) 26) ?a))
+           phrase)))
+  ;(defun vigenereDecrypt(key phrase)
+  ;   ())
+#+END_SRC
+
+#+RESULTS:
+: vigenereEncrypt
+
+#+BEGIN_SRC elisp :results code
+;(setq key "lemon")
+;(setq phrase "attackatdawn")
+;(setq encrypted (vigenereEncrypt key phrase))
+(vigenereEncrypt "lemon" "attackatdawn") 
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_SRC elisp
+"lxfopvefrnhr"
+#+END_SRC
+lxfopvefrnhr
+
+
+
+** RSA Therory Cipher

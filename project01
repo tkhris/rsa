@@ -1,0 +1,483 @@
+Both are 'tranditional vigenere ciphers'.  
+That is all uppercase letters are converted to lower and 
+all non-alphabetic entries are ignored.
+
+YOU MUST:
+  Crack the Cipher
+    Create an algorithm for deciphering it
+      You don't need to create 1 algorithm to do it all or the exploration, but
+      you must be able to show your work.
+
+  Give a solid explanation of how you figured it out!
+
+Easy
+Ciphertext:
+mlwkxjgkx, zwkbpq b leq ngxg rhy, er yvaxghk, vtpd rhyj lhpwfg eklxqter, ek b
+aenx vseftrvxw cgn. trv tl ede aenx gsl ytmla, liwd ri vbemyxgxdr trv mxeua hrw
+tgslaxv ohkhk hy aalwse; rxe, kxxo qx hyl hy xzx uikm usgdl agkww gy pmkwhq;
+kxxo dxtvfbgk, woxr tr lxmwr efw tpkh uc xtbxz. hkksgbdw rhyjlxpnxl; tjxiejx
+xzwkr rwxwjme mlagz; efw xwltupala e zhnww, xoif t asmlx sx ikeqxk, e zhnww hy
+jslmmfz, t lgnli gy yeama, e zhnww hy pwtkragz, e zhnww hy kdhkc, s ahykx hj
+gkwij, t asmlx sx zhh; latx qhnv agvsebgkk ftc tx br lax rsfx sx mai dhkh; latx
+qhnv gnmkgbgkk ftc tx br lax rsfx sx mai dhkh; latx see cgnk wsenxsmbsfl feq ux
+mf mai ftfi gy mlw ehvv, pbxz nipaymiv atrvl nrlh mlw fhwl abkz. maijxysjx,
+vislx jjhf ede rsmk emyam whxxgzxl, jjhf ede eemzaxwk, yvgf tpd rhyj enwlynp
+vxlmjxl, jjhf ede rsmk ivawx efw emyam-qagwivgxwk, tgh xkhq see cgnk aavdiv
+whmfzl. ehihmfm tqggz cgnkwweoik t misvaij, tgh dxm rgm tpd ux whhdikfxr sm
+hrux; uyl exx ggx whxto sm t xafx efw eil tep dblxwg nrlh amk ltcagzw, latx oaxr
+see lsox whhdif mael tep etr fw xwmxbxh gy tpd, tgh latx woxvq ftr etr lsox ef
+xjyse ivaobpwzx. wwx mlsm ri dhoi ggx efhmlwk; vislx xg ux ggoxxgnl; pwtkr lh
+bqhtkx ggx xg tgslaxv sl mlw zhwhxe vwjnmjxl. gwtli lh ui awei; uxtww mh fw
+nggdxtr; uxtww mh jagw jsnex ggx aama efhmlwk; vislx xg leiwi esfzxv latr al
+giwwyyd; kxxakx xg mac txw iskec, latx qx feq ghx tx piskr; ejbli wtkpq, mael
+rhyj uhhaxl efw rsmk fmfwl qsr ui agomyhkelxw. efw tfgox ede mlagzw, uehxzx
+rsmklidoxw obml lax fggw sx vaejbmc, sl pmla t qsgmpw, pamua bw lax fggw sx
+ixvxxvxfxlw sgw twtvi. hktc sepeql, mlsm ri etr rgm yeagm, yfmbp a vhqw. uxlgew,
+efw es, a pbpd vhqw jnmudec, sgw vwvxmnx rsm ngxg frwwey. eexg. efw tksbg, xzx
+hvvxk sx mai zhnww ikihtkiv yhv lax tjxlmvxggq hy xzx lgzhhp gy mlw ikshaxxk,
+xlxsuemkaxh xhk xzxbv aglxjnvxahg mf tep labryl mlsm tvw xqtwwbifm ysj maie,
+xoif yhv see xzx hjxbvijl hj lax gznkgz, hk mf hmlwk psjwl, xzhli oah ejx vedexh
+lh mlw fbralmvq bg xzx vlmkvl, txzmfgbry tm xzx amya ivaxlxk, xoif whaf mh xzx
+wisvhrk— tgh labw katpd ux xzx hvvxk sx mai zhnww hy xzx ivwlbhwgvc gy mlw
+lvlghe: lw mael bl ehihmfmxh lh ui hkxwawxrl, hk xwtvlwk, llsee fw yhyfw
+lxsgwmfz br zbl tdtvi, ag mlw ahykx plava wztep tx ivwitvww ysj abq. laxvwyhvw,
+ax wztep tx ymjlm mf mai zhnww hy kgw, br s ieeux mlsm mlw vhrykxksmbsf bg xzx
+asmlx qsr aisk amk phvvl vejxyyder efw wmkmbrumec, fhm aama pgnw whxxgz. tgh
+oaxr zx vsexml agms lax lgnli gy zsv, yhv zx llgneh tx ymjlm mf mai
+zhnww—uxlgew, xzbl mk uxemmbjme, mlsm ai etr fw tg iptftdx— eil abq gyyij
+abqkxej ag ivsrxv mihr zbl ofxxw txysjx zsv, bg xgdxr gk kiexffjtggw hy xzx
+xzwkeekmbry vhzwgtrl. tgh oaxr sgr wztep uhfi ag tjlxk laf, eil mai lxtgzxk
+ejbli, sgw, aama yhebjlxw lsgww lh aisoxr, qxt, inxg hakxgler, wsenxw abw
+tkhxzxk sj ukilakif pbxz maikx psjwl: ejm mlgn t fjhmlwk hv tkxxzkxr? a ltpmmx
+cgn br lax rsfx sx mai dhkh bxlyk vavalm, mf mhowg hv jxfieukefvx sx mai
+woxvdtlxagz ggoxrsgm, mf pamua vsnxgefm b vwvxmnx rsm mh jweesolamh, bg e
+vxmijfbrsmbsf mael bl jaqxh, affsntupw, tgh mgvlsgzisuei, lh ui qhnv xkbifw trv
+ukslaxv laksmza xzx zvsvx sx zhh ag mlw uhrvl hj dhoi, lh pedd br see xzx
+vseftrvfxrll hj yhw fdtfidxlw, ag mlsgdwybomfz, ysjxoij tgh woxv. sfxr. sgw lw
+mael bl jgngh mgpsjmac gy mlal lednmelbhr katpd ghx ztoi hetgw tfsfz rsm; yhv qx
+llsee rgm lyxyxv latx ebgi zhnww laede ui hhepmmxh tr ame. tgh zx mlsm vsexml ag
+trv bl jsbmlxne fwyhvw fx, efw bw s ukslaxv, gk bj laxc tx uvwmavwg, mlwr llsee
+wsenxw mai hkxwawxrl hk xwtvlwk pmla ntdbyxww aefwl xg axenxg, aama xzbl wsfx
+tjtrij tgh uhoiftgx, gk uc ktrmfz tqwg, br lhdif hy xzx leex. uizheh, nxkmdr, b
+wsr nrlh rsm, mamk bl ef xgwsfipw ngxg rhy xhk e kteyltmmgg ms ggx efhmlwk br
+lax lgnli gy zsv, bg xzx lgzhhp gy mlw ikshaxxk. tgh qx tvw vtpdxw xg wh xzbl fq
+ikeqxk efw mlsgdwybomfz, tw lax whbkml laede zmnx nxlxkefvx mf tep qhnv vhbryl
+br lax lgnli gy mlw ehvv, bg xzx lgzhhp gy mlw ikshaxxk, mael bm qsr uiuhfi s
+ltrumnejr, t xsuxvftvpw hy xzx asdr ltakbx lh rsmk xhaybgsmbsf. tgh qx llsee rgm
+kiuxbzw tgc sfhry rhy agms labw kvasge lenx ai al vpwtg jjhf xzx upghw sx mamk
+zxrwktxahg; efw ai katpd ux vwvxmnxw fq mai gkwmftggw hy xzx pekabry hy jwxm,
+jgk nrlh mlal xrv ptw lax sjwbrsgvi gy mlw ptwzbgk gy yiwm brkmbxmmxh. sgw
+eytbr, lax sjwbrsgvi gy pekabry yxil bl xg ux evfbralmijxw fq mai hkxwawxrl, hk
+tjxlmvbgk wewij hy xzx vlmkvl. am bw lh ui uhfqwgviv pbxz ikeqxk; efw tjlxk
+tskmecbgk gy uvwtw efw pmfx, ai al ms ybkh zbfwwey euvhvvbgk lh mlw itxlxkr
+yboif bg xzx mlakmiwgml uattlxk sx chlf’l mikmbqggr gggvijgbry fx. eexg.
+
+Plaintext:
+therefore, verily i say unto you, my friends, call your solemn assembly, as i
+have commanded you. and as all have not faith, seek ye diligently and teach one
+another words of wisdom; yea, seek ye out of the best books words of wisdom;
+seek learning, even by study and also by faith. organize yourselves; prepare
+every needful thing; and establish a house, even a house of prayer, a house of
+fasting, a house of faith, a house of learning, a house of glory, a house of
+order, a house of god; that your incomings may be in the name of the lord; that
+your outgoings may be in the name of the lord; that all your salutations may be
+in the name of the lord, with uplifted hands unto the most high. therefore,
+cease from all your light speeches, from all laughter, from all your lustful
+desires, from all your pride and light-mindedness, and from all your wicked
+doings. appoint among yourselves a teacher, and let not all be spokesmen at
+once; but let one speak at a time and let all listen unto his sayings, that when
+all have spoken that all may be edified of all, and that every man may have an
+equal privilege. see that ye love one another; cease to be covetous; learn to
+impart one to another as the gospel requires. cease to be idle; cease to be
+unclean; cease to find fault one with another; cease to sleep longer than is
+needful; retire to thy bed early, that ye may not be weary; arise early, that
+your bodies and your minds may be invigorated. and above all things, clothe
+yourselves with the bond of charity, as with a mantle, which is the bond of
+perfectness and peace. pray always, that ye may not faint, until i come. behold,
+and lo, i will come quickly, and receive you unto myself. amen. and again, the
+order of the house prepared for the presidency of the school of the prophets,
+established for their instruction in all things that are expedient for them,
+even for all the officers of the church, or in other words, those who are called
+to the ministry in the church, beginning at the high priests, even down to the
+deacons— and this shall be the order of the house of the presidency of the
+school: he that is appointed to be president, or teacher, shall be found
+standing in his place, in the house which shall be prepared for him. therefore,
+he shall be first in the house of god, in a place that the congregation in the
+house may hear his words carefully and distinctly, not with loud speech. and
+when he cometh into the house of god, for he should be first in the
+house—behold, this is beautiful, that he may be an example— let him offer
+himself in prayer upon his knees before god, in token or remembrance of the
+everlasting covenant. and when any shall come in after him, let the teacher
+arise, and, with uplifted hands to heaven, yea, even directly, salute his
+brother or brethren with these words: art thou a brother or brethren? i salute
+you in the name of the lord jesus christ, in token or remembrance of the
+everlasting covenant, in which covenant i receive you to fellowship, in a
+determination that is fixed, immovable, and unchangeable, to be your friend and
+brother through the grace of god in the bonds of love, to walk in all the
+commandments of god blameless, in thanksgiving, forever and ever. amen. and he
+that is found unworthy of this salutation shall not have place among you; for ye
+shall not suffer that mine house shall be polluted by him. and he that cometh in
+and is faithful before me, and is a brother, or if they be brethren, they shall
+salute the president or teacher with uplifted hands to heaven, with this same
+prayer and covenant, or by saying amen, in token of the same. behold, verily, i
+say unto you, this is an ensample unto you for a salutation to one another in
+the house of god, in the school of the prophets. and ye are called to do this by
+prayer and thanksgiving, as the spirit shall give utterance in all your doings
+in the house of the lord, in the school of the prophets, that it may become a
+sanctuary, a tabernacle of the holy spirit to your edification. and ye shall not
+receive any among you into this school save he is clean from the blood of this
+generation; and he shall be received by the ordinance of the washing of feet,
+for unto this end was the ordinance of the washing of feet instituted. and
+again, the ordinance of washing feet is to be administered by the president, or
+presiding elder of the church. it is to be commenced with prayer; and after
+partaking of bread and wine, he is to gird himself according to the pattern
+given in the thirteenth chapter of john’s testimony concerning me. amen.
+
+Hard
+Ciphertext:
+gzvz qdzzvxqk...                                                  1
+
+    ...av prdz lptr oi nqyo kdux rg oewj da ipx tgmtm bi bwm
+    zsahv.
+                 ohllt dhgui
+         zb vv ic qfngvkiaw icl imhycie iirb mfsx
+         kpvqoh ikc fsk iyzina pfsx kprb atmf.
+
+    y kqrty vyjikc aqror dxemtpk se apumtv.    amei mqqhw.      ipx
+    bgpgpvq aiiwgmq rb fhi lwkjv.
+
+                 klqqh ddqvc (useb'q)
+         iwg qgqleekr, rv ipx ndeemg higba, ksr yiq
+         dtlirq swjczhl iptr zi nif wpt uhql
+         mebrotxoxll wgmplmh wvamtpqaj bwm ijsrvb,
+         vqaimtb gj kpr wpxzw kgwk qawmatbewrk
+         eulkw etq, ar wipw, mcbbpwpp ipfcgimc.
+
+    llv lboxwqgq hiinbuu; amtnarx buuwjoa fgsga, rwk.
+
+                 vcbbw zfqph (kdvm'b)
+         llv arfwcl fmkx zvghtaqzcfx tzrdbjzxq
+         oiim, bi kdckqw, hftckqca pfg glzvrchtr
+         cfslou kis thly oewjq wu bac aqgmagqco
+         wckxicpwqdv hd llv xydvtb xyjxy. buhg wiw
+         kshv unqg pbmcetka gr iamkr eeesvql iw mfw
+         hrvthz, qcm kgwk ws wptqk agqdcalkpbbmfw
+         nmeh uxablliixehbtl tq sqlavqo pbmcetka gr
+         xjvvf xsfbodtaa hp olzagom uwk rahsqgv, ad
+         bacq immawcptew vitqqhl ipxw osltq ompdx
+         csvkp ob bwmbp gae urdvh.
+
+    bacq pvic pistr, bwwgmedbttr. fakyme dvs pbezii...
+
+                 ohllt dhgui (twaw'l)
+         ipx jswk mihz swenzme urvapox usw
+         dqflvimknjikmq da p anphvzavqoag
+         lmhlzaglkpbxb sxkmzsb iw wm s hfcoom-
+         qivioeil frutzlympk buuwjoa y zsfx jkqam
+         pfawktvqo ipx "qlei-acdvvtxb teevru" jjb
+         bl xetb gkm bmlqskv env bwql...
+         "qg pfvt dvs bayfoj nbu iat mfw jzau."
+
+    wqitxq jsct - (sxta avpwie 35uz lupoxq)
+
+    vscxulvh txyh smme dvs qgrwvrkg zqip mfw sgmalvv bbrdij.
+    jehiipmycmeo frutzlympka, odkz neghw, tpbumdokyhlvl gr i
+    qcszq fvzxomn-amwdi jwaj kptecv, "wf tbqo pvw rzeesf iwg
+    iej llv nvvp." lm xlv azbu d exlx qzsk ws dta bac
+    vscxulvh rnkhmeo bxb dn mfw xfx bi ngifc, tyk buhg cmocj
+    gfur eirs wmor. kqyw ce bh y kxrzeb vxoar kop - buh
+    ldtifarj pnym kiggklvl.
+
+    rql iqmjww
+
+    ra alowb msjrj bb pwgvbly, av prdz rtbac, xyma...
+
+                         ywxkx mf vrlvr
+                 ...ih exjd ej ard edzeb gvciagw pvw qsr
+                 uqrjw gmimjxzvt wptqk bgpgpvqa wioc
+                 ecjbruqdcljq hzansxtikcv smmeqqvpm.
+
+                                                           amx kw:
+
+2                                                       3.
+                 ukov 3zw pwzzarg lgiyr 8/8/03
+
+
+    ark. iewpjz wcfx'j jrgzdwf - kgveqaj                        2
+
+    kawlc gr kpr ftdkd pshzw suwb eagul kpr ywxkx ceeeigha.
+    p ptlv wycgv qi wyd. svkphu ltvm gk enixh. 30'a. zqgb
+    xetmq. kqh nxcl prvq smgnxalpp qa vtxxicjw ra uh aiigbk
+    eel fkcuneck slb bi pxa ocjc emnw jjb ocjc swelvv zhme.
+
+3   me buh jpbapgsd - iewpjz zyjkcmf lv uzhll sw buh uxzkmj.    3
+    lv jrqlh wocj xf aclb gmocspzvt d gttemo fltygwomk
+    rzvfctk bwm pgfhfe, puiltbly xfenul wql fgyjm. n wmp
+    sxrlpv eulaitxq g.w.
+
+4   zvg. dzipnp vieb'f nqikacf - gfvglvjwnq                     4
+
+    svkphu atbl rzi emjvxpxxp (omkp gkm wmtbdmem "qrtepblk
+    zrvvvp") dv mfw xrjyh, ztuhtww kpr nmibec. vsvaa'w vdbbaw
+    xyzbxow bac omelbz 3 udzx jsvxm lhtawp zmpclbcmga.
+
+    ac hslzf d kjx hd lir, arwa ipx ngx uwjq vtfm m zmj
+    ubeqam ifgrv. pr sqrsl gl yg, agdzta tr s hzovwia xamls
+    fv gkm hkkcwr fn uluhmed sru i ihzn xkclxp ebpic (bkgumr)
+    ig d kdamsei giewg.
+
+    wm ipwwjmf wpt xamfi kw ula wmtb sw zn vw etzx y uscl
+    pruezxqk. wllqhvag, mfwvv'a n owjl ksefcqaj w.h. bac
+    lir khs zpbmjww. rzgkcg thmcw fcg wpt eblvsn. vbz pt
+    axck xym oxtalhxwvj.
+
+    buh bti vsh wyigwmga hl llv nyrwg.
+                                                     knr ls:
+5   vfg. dzipnp vieb'f kwjax - kgveqaj                          5
+
+    igbasj, himfvms qg nsnrunv icl kmti, cqrv qc bac vmib vq
+    ngwgr gj r jhotswscj, fcwpnqco br xvfu qhaizhwarx pvv
+    pdclc. zi pmyoa xvmm zmj ubeqam ifgrv.
+
+                       iewpjz
+                  (blls gpbqm)
+              lptr vs pwh pmpv ac'k kfvr rci bh jmrtp?
+              lrc yclr kezl uh epa lrapc ig eztiddswk!
+
+    ue. szdalcj, e scehijkkyl, pviav wkmk faq.
+
+                      gzbvatz
+              vmei fns lb, bz. wcfx. pwh fic'b egw me
+              nervi wy rzi scyoldhxpk jfzrymg.
+
+                      ikrzyi
+              q'z jibm. pc'dp jmr zpd znqlw wqevb.
+
+                      ezhqkii
+              bula qgiykw yif jwi bh zw flqyw icl br'k
+              kfqaj bd jx zmmcb. lrc hphsdh yiih uplx
+              wgyi xerbtam kgrkpf dod.
+
+                      ikrzyi
+              buh nxzlr a lvieg wu qm usw nprq i lwkieee
+              knpm nmlrwvuil. l ihsxb aj ym'q fwbm mm
+              upvia wpt eblvsna, nql wm lyah ym'q fwbm
+              mm vidwylaw bac zslar. km sqwl'l xvty pm
+              gqzfl enil rn rwnpki. wqevb wm pghiu i
+              prcetx mx azvqreh igb ulrzthl bm muwrkg
+              dxqs. bacf lv bbol bm.
+                                                (vmfxzvhhl)
+
+5                                                          4.
+                   wpze 3jh imilatl wpsjk 8/8/03
+
+
+    kbqbxvncv:                                                   5
+
+    xym oxtalhxwv uzvymg, thmcmeo txqabr, bmgba ohpxvw rzi
+    jbrhzxvz uzivt. cuwhaxp jidwiha ettlk jiwz kqh jkgwjtifh.
+
+                         xgwlqwv
+                 cwbn. bwmlc hprvf kikm ucwr fv qlaettw sx
+                 kpr stpvggfk fnslkt vhu xsi i lhig.
+
+                         ikrzyi
+                 wa gqhxeyq? m yiq ww vw wmor kw n fmattp!
+
+                         hvfafhz
+                 iptr'k xym qlaettw vigiewutvm.
+
+                         yjxyce
+                 l mkmgrmectl iwjvw rzid qa wpt jhrlsd ws d
+                 tdkdcv jztvqo riugfik qa d lxanqwh
+                 ciidbdzr uaxy i floc wg rzi uwbu apgbly
+                 'fvenum dn mfw pvwcdzs'.
+
+                         xkmkwvz
+                 zu. ltvm, fszv gbx icg bbwe ywj pcrp
+                 wyeexm gkii jnjdhfhru edceb kywnru qu q
+                 cskx cmg lb gwej kxiivjpi wocj cfc?
+
+                         nubwck
+                 fga dcpk?
+
+                         xgwlqwv
+                 ewah ii iej.
+
+                         xsil (b.v.)
+                   (ibmkguee ipfmcb)
+                 tplllz!
+
+Plaintext:
+over darkness... 1
+
+...we hear what we will come to know as the voice of the
+guide.
+guide voice
+it is an important and popular fact that
+things are not always what they seem.
+
+a small square image appears on screen. home video. the
+dolphin stadium at sea world.
+
+guide voice (cont'd)
+for instance, on the planet earth, man had
+always assumed that he was the most
+intelligent species occupying the planet,
+instead of the third most intelligent
+which was, in fact, entirely accurate.
+
+the dolphins perform; leaping through hoops, etc.
+
+guide voice (cont'd)
+the second most intelligent creatures
+were, of course, dolphins who curiously
+enough had long known of the impending
+destruction of the planet earth. they had
+made many attempts to alert mankind to the
+danger, but most of their communications
+were misinterpreted as amusing attempts to
+punch footballs or whistle for tidbits, so
+they eventually decided they would leave
+earth by their own means.
+
+they leap madly, desperately. higher and higher...
+
+guide voice (cont'd)
+the last ever dolphin message was
+misinterpreted as a surprisingly
+sophisticated attempt to do a double-
+backward somersault through a hoop while
+whistling the "star-spangled banner" but
+in fact the message was this...
+"so long and thanks for all the fish."
+
+titles roll - (full screen 35mm images)
+
+dolphins leap over and interact with the opening titles.
+breathtaking somersaults, back flips, choreographed to a
+buzby berkley-style song called, "so long and thanks for
+all the fish." we end with a wide shot of all the
+dolphins jumping out of the top of frame, but they never
+come back down. tilt up to a starry night sky - the
+dolphins have vanished.
+
+end titles
+
+as night turns to morning, we hear click, then...
+
+voice on radio
+...as well as sea world orlando and san
+diego reporting their dolphins have
+mysteriously disappeared overnight.
+
+cut to:
+
+2 3.
+hhgg 3rd revised draft 8/8/03
+
+
+int. arthur dent's bedroom - morning 2
+
+close on the clock radio from which the voice emanates.
+a hand shuts it off. arthur dent is awake. 30's. kind
+faced. his feet land perfectly in slippers as he stands
+and shuffles out of his very neat but very boring room.
+
+3 in the bathroom - arthur gargles in front of the mirror. 3
+he bends over to spit revealing a yellow bulldozer
+through the window, crawling toward his house. a tea
+kettle whistles o.s.
+
+4 int. arthur dent's kitchen - continuous 4
+
+arthur sets the newspaper (with the headline "dolphins
+vanish") on the table, removes the kettle. doesn't notice
+through the window 3 more large yellow bulldozers.
+
+he pours a cup of tea, sets the pot down next o his
+mobile phone. he picks it up, stares at a digital photo
+on the screen of himself and a very pretty woman (tricia)
+at a costume party.
+
+he presses the phone to his head as if it were a cold
+compress. suddenly, there's a loud rumbling o.s. the
+tea cup rattles. arthur looks out the window. now he
+sees the bulldozers.
+
+the tea cup shatters on the floor.
+cut to:
+5 ext. arthur dent's house - morning 5
+
+arthur, dressed in pajamas and robe, lies in the dirt in
+front of a bulldozer, blocking it from destroying his
+house. he yells into his mobile phone.
+
+arthur
+(into phone)
+what do you mean he's gone out to lunch?
+you just said he was still at breakfast!
+
+mr. prosser, a bureaucrat, leans over him.
+
+prosser
+come off it, mr. dent. you can't lie in
+front of the bulldozers forever.
+
+arthur
+i'm game. we'll see who rusts first.
+
+prosser
+this bypass has got to be built and it's
+going to be built. you should have made
+your protest months ago.
+
+arthur
+the first i heard of it was when a workman
+came yesterday. i asked if he'd come to
+clean the windows, and he said he'd come
+to demolish the house. he didn't tell me
+right away of course. first he wiped a
+couple of windows and charged me twenty
+quid. then he told me.
+(continued)
+
+5 4.
+hhgg 3rd revised draft 8/8/03
+
+
+continued: 5
+
+the bulldozer driver, looking guilty, ducks behind the
+steering wheel. prosser removes plans from his briefcase.
+
+prosser
+look. these plans have been on display at
+the planning office now for a year.
+
+arthur
+on display? i had to go down to a cellar!
+
+prosser
+that's the display department.
+
+arthur
+i eventually found them in the bottom of a
+locked filing cabinet in a disused
+lavatory with a sign on the door saying
+'beware of the leopard'.
+
+prosser
+mr. dent, have you any idea how much
+damage that bulldozer would suffer if i
+just let it roll straight over you?
+
+arthur
+how much?
+
+prosser
+none at all.
+
+ford (o.s.)
+(american accent)
+arthur!

@@ -1,4 +1,70 @@
 ** Password Strength Security
+  #+BEGIN_SRC elisp :results silent
+    (defun digitp (p)
+      ;(setq  p)
+      (and (> (aref p 0) 47) (< (aref p 0) 58)))
+#+END_SRC
+
+#+BEGIN_SRC elisp :results silent
+  (defun specialp (p)
+    (setq cSpecial (aref p 0))
+    (or (= cSpecial 33) (= cSpecial 95) (and (> cSpecial 34) (<
+    cSpecial 46)) (and (> cSpecial 59) (< cSpecial 65))))
+#+END_SRC
+
+#+BEGIN_SRC elisp :results silent
+  (defun upperp (p)
+     (if (or (digitp p) (specialp p))
+        nil
+    (setq upper (upcase p))
+     (string-equal upper p)))
+#+END_SRC
+
+#+BEGIN_SRC elisp :results silent
+  (defun lowerp (p)
+    (if (or (digitp p) (specialp p))
+        nil
+     (setq lower (downcase p))
+     (string-equal lower p)))
+#+END_SRC
+
+#+BEGIN_SRC elisp :results silent
+  (defun passCheck (p)
+    (setq low 0)
+    (setq up 0)
+    (setq digit 0)
+    (setq symb 0)
+    (setq count 0)
+    (setq checksPerSec 588235)
+    (while (< count (length p))
+      (setq c (substring p count (+ count 1)))
+      (if (lowerp c ) (setq low 26)
+        (if (upperp c) (setq up 26)
+          (if (digitp c) (setq digit 10) (setq symb 18))))
+      (incf count))
+    (setq totalUniqueSymbols (+ low up digit symb))
+    (princ "# total unqiue symbols: ")
+    (print totalUniqueSymbols)
+    (setq pLength (length p))
+    (princ "Length of password: ")
+    (print pLength)
+    (setq numPermutations (expt totalUniqueSymbols pLength))
+    (princ "# permutations with symbols in password: ")
+    (print numPermutations)
+    (setq secondsToCrack (/ numPermutations checksPerSec))
+    (setq halfSeconds (/ secondsToCrack 2))
+    (setq secPerYear (* 525600 60))
+    (setq years (/ secondsToCrack secPerYear))
+    (if (< years 1) "Very weak password"
+      (if (< years 25) "Weak password"
+        (if (< years 50) "Average password"
+          (if (< years 75) "Strong password" "Very Strong Password")))))
+#+END_SRC
+
+#+BEGIN_SRC elisp :results output
+(print(passCheck "je[9,%hHq|Lb|M"))
+#+END_SRC
+ 
 ** Ceaser Cipher
 #+BEGIN_SRC elisp
 (require 'cl)
